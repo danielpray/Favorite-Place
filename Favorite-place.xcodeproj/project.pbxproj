@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		391A577A1CCD8A2500B40E4F /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391A57791CCD8A2500B40E4F /* AboutViewController.swift */; };
+		391A577C1CCD8DB400B40E4F /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391A577B1CCD8DB400B40E4F /* PictureViewController.swift */; };
 		39EC25C91CCC2B94004AE4DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EC25C81CCC2B94004AE4DB /* AppDelegate.swift */; };
 		39EC25CB1CCC2B94004AE4DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EC25CA1CCC2B94004AE4DB /* ViewController.swift */; };
 		39EC25CE1CCC2B94004AE4DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39EC25CC1CCC2B94004AE4DB /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		391A57791CCD8A2500B40E4F /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		391A577B1CCD8DB400B40E4F /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
 		39EC25C51CCC2B94004AE4DB /* Favorite-place.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Favorite-place.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39EC25C81CCC2B94004AE4DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39EC25CA1CCC2B94004AE4DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 				39EC25C81CCC2B94004AE4DB /* AppDelegate.swift */,
 				39EC25CA1CCC2B94004AE4DB /* ViewController.swift */,
 				39EC25CC1CCC2B94004AE4DB /* Main.storyboard */,
+				391A57791CCD8A2500B40E4F /* AboutViewController.swift */,
+				391A577B1CCD8DB400B40E4F /* PictureViewController.swift */,
 				39EC25CF1CCC2B94004AE4DB /* Assets.xcassets */,
 				39EC25D11CCC2B94004AE4DB /* LaunchScreen.storyboard */,
 				39EC25D41CCC2B94004AE4DB /* Info.plist */,
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				391A577A1CCD8A2500B40E4F /* AboutViewController.swift in Sources */,
+				391A577C1CCD8DB400B40E4F /* PictureViewController.swift in Sources */,
 				39EC25CB1CCC2B94004AE4DB /* ViewController.swift in Sources */,
 				39EC25C91CCC2B94004AE4DB /* AppDelegate.swift in Sources */,
 			);
@@ -482,6 +490,7 @@
 				39EC25EF1CCC2B94004AE4DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39EC25F01CCC2B94004AE4DB /* Build configuration list for PBXNativeTarget "Favorite-placeTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				39EC25F21CCC2B94004AE4DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39EC25F31CCC2B94004AE4DB /* Build configuration list for PBXNativeTarget "Favorite-placeUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				39EC25F51CCC2B94004AE4DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
